@@ -3,7 +3,7 @@ package main
 import "fmt"
 func main(){
 	var n int
-fmt.Println("Enter the value of elements in the array\n")
+fmt.Printf("Enter the value of elements in the array\n")
 fmt.Scan(&n)
 if n<=0{
 	fmt.Println("Enter the value greater than zero")
