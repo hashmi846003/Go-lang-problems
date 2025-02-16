@@ -14,5 +14,7 @@ func factorial(n int)int{
 	
 }
 func main(){
-	fmt.Println(factorial(5))
+	var n int
+	fmt.Scanf("%d",&n)
+	fmt.Println(factorial(n))
 }
